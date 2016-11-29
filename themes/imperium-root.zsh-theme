@@ -1,3 +1,6 @@
+# Color and form modification of the mortalscumbag theme
+# Uses magenta to differentiate the user as root, and not a user
+
 function my_git_prompt() {
   tester=$(git rev-parse --git-dir 2> /dev/null) || return
   
